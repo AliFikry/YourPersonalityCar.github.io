@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+:root {
+    --upperNavColor: black; //color of the upper nav bar
+    --upperNavWordColor: white; // color for the upper nav word
+    --upperNavSocialMedia: white; // color of the social media logo
+    --logoSize: 50px; //size of logo
+    --colorBox: linear-gradient(180deg, #e93d95, #f47b64); // color for the boxes around the question
+    --ads: block; //you can chage to none to remove ads and block to show ads
+}
+.ads {
+    // for the ads looks
+    width: 80%;
+    height: 100px;
+    background-color: grey;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 20px;
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    display: var(--ads);
+}
+.upperNav {
+    background-color: var(--upperNavColor);
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+}
+.side-links {
+    //left link in the upper navbar
+    display: flex;
+    color: var(--upperNavWordColor);
+    text-decoration: none;
+    margin-top: 6px;
+    margin-left: 10px;
+    align-items: center;
+    font-size: 13px;
+    p {
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    .icons {
+        color: var(--upperNavWordColor);
+        margin: 0px 5px;
+        font-size: 16px;
+        margin-top: 3px;
+    }
+}
+
+.side-links:hover {
+    color: var(--upperNavWordColor);
+    cursor: pointer;
+}
+.main {
+    display: flex;
+}
+.containers {
+    .socialMediaIcons {
+        position: absolute;
+        right: 12px;
+        color: var(--upperNavSocialMedia);
+        width: 120px;
+        margin: 6px 10px 0px 0px;
+        // float: left;
+        svg {
+            margin: 0px 2px;
+        }
+    }
+}
+.mainNavbar {
+    //navbar the have the logo
+    margin-bottom: 20px;
+    .logo {
+        font-size: var(--logoSize);
+        // text-decoration: none;
+        color: black;
+        font-family: "Montserrat", cursive; // to change the font for more font visit google font
+    }
+}
+main {
+    // main content
+    .question {
+        // border: 7px solid black;
+        img {
+            margin-bottom: 20px;
+            margin-top: 20px;
+            // margin-left: 50%;
+            // transform: translateX(-50%);
+        }
+        hr {
+            width: 50%;
+            margin-left: 50%;
+            transform: translateX(-50%);
+            margin-bottom: 10px;
+        }
+        .mainQuestion {
+            width: 75%;
+            margin-left: 50%;
+            transform: translateX(-50%);
+
+            padding: 7px;
+            background: var(--colorBox);
+            // padding: 3px;
+            .questionContent {
+                background: white;
+                color: black;
+                padding: 20px;
+            }
+        }
+    }
+    .shareLinks {
+        svg {
+            margin: 15px 10px 0px 10px;
+            width: 48px;
+            height: 48px;
+            color: black;
+        }
+    }
+    .theMainQuestion {
+        padding: 10px;
+        .firstQuestion {
+            .question {
+                margin-top: 25px;
+                // border: 1px solid;
+                // border-radius: 20px;
+                width: 60%;
+                font-size: 21px;
+                padding: 10px;
+                margin-left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+    .choose {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        font-size: 25px;
+        .option {
+            border: 1px solid#d8d8d8;
+            background: #f2f2f2;
+            padding: 8px;
+            margin: 10px 0px;
+            label {
+                margin-right: 10px;
+            }
+            input {
+                width: 16px;
+                height: 16px;
+            }
+        }
+    }
+    .result {
+        margin-top: 20px;
+        border: 1px solid#d8d8d8;
+        background: #f9f9f9;
+        padding: 20px;
+        .carDocumentary{
+            border: 1px solid #d8d8d8;
+            background: f2f2f2;
+            padding: 10px;
+            font-size: 30px;
+            // margin-bottom: 10px;
+        }
+        img{
+            margin-top: 30px;
+        }
+        .carTitle {
+            margin-right: 20px;
+            font-size: 24px;
+        }
+        .title {
+            font-size: 18px;
+            margin-right: 20px;
+        }
+    }
+    .contactUs {
+        //comment section
+        width: 100%;
+        border: 1px solid#d8d8d8;
+        background: #f2f2f2;
+        padding: 30px;
+        input {
+            padding: 13px;
+        }
+        textarea {
+            margin-bottom: 24px;
+        }
+        h3 {
+            margin-bottom: 30px;
+        }
+    }
+    .moreShareLinks {
+        margin-left: 50%;
+        transform: translateX(-50%);
+        width: 30%;
+        margin-top: 24px;
+        .moreShareLinksContent {
+            font-size: 20px;
+            margin-bottom: 3px;
+        }
+        svg {
+            width: 35px;
+            height: 35px;
+            margin: 0px 10px;
+        }
+    }
+}
+footer {
+    margin-top: 100px;
+    .copyRightClaim {
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .mainNavbar {
+        p {
+            font-size: 40px;
+            margin-top: 10px;
+        }
+    }
+    main {
+        .question {
+            .mainQuestion {
+                margin-left: 50%;
+                width: 90%;
+
+                transform: translateX(-50%);
+            }
+        }
+        .theMainQuestion {
+            .firstQuestion {
+                .question {
+                    width: 90%;
+                    font-size: 17px;
+                }
+            }
+        }
+        .choose {
+            // margin: 0px 0px 0px 240px;
+            margin-left: 57%;
+            width: 90%;
+            font-size: 16px;
+            .option {
+                width: 82%;
+                margin-left: 7px;
+            }
+            label {
+                // margin-bottom: 10px;
+                margin-right: 45px;
+            }
+            input {
+                width: 13px;
+                height: 13px;
+                // margin-top: 14px;
+                // position: absolute;
+                top: 23%;
+            }
+        }
+        .shareLinks {
+            svg {
+                width: 43px;
+                height: 43px;
+            }
+        }
+        .result {
+            .carTitle {
+                font-size: 16px;
+            }
+            .carDocumentary{
+                font-size: 20px;
+            }
+            img{
+                margin-top: 10px;
+            }
+        }
+        .contactUs {
+            //comment section
+            h3 {
+                font-size: 20px;
+            }
+            label {
+                font-size: 14px;
+            }
+            .info {
+                font-size: 10px;
+            }
+        }
+        .moreShareLinks {
+            width: 50%;
+            // .moreShareLinksContent{
+            //     font-size: 15px;
+            // }
+            svg {
+                width: 25px;
+                height: 25px;
+            }
+        }
+    }
+}

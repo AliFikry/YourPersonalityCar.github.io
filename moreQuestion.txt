@@ -1,0 +1,27 @@
+//start of ads this part is for the ad if u dont want ads just remove it 
+<div class="ads">
+    Ads
+</div>
+//end of ads
+
+<div class="theMainQuestion">
+    <div class="firstQuestion">
+        <div class="question">
+            <p class=" text-center" dir="rtl" lang="ar">هناك حقيقة مثبتة منذ التركيز على الشكل الخارجي
+                للنصأو شكل توضع الفقرات في الصفحة التي يقرأ ؟</p>
+                <hr style="height: 3px; color: black;">
+
+                <img src="./pics/mercedes-3510327_640.jpg" alt="" class="img-fluid mx-auto d-block"> 
+        </div>
+        <div class="choose justify-content-center" >
+            <div class="option option1" dir="rtl" lang="ar">
+                <input type="checkbox" id="" name="1" value="1">
+                <label for="option1"> سكان التغذية لكرة القدم</label>
+            </div>
+            <div class="option option2" dir="rtl" lang="ar">
+                <input type="checkbox" id="" name="hi" value="hi"> 
+                <label for="option2"> من أجل إطلاق الحياة</label>
+            </div>
+        </div>
+    </div>
+</div>
