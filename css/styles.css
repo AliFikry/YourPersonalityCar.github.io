@@ -6,7 +6,7 @@
   --upperNavSocialMedia: white;
   --logoSize: 50px;
   --colorBox: linear-gradient(180deg, #e93d95, #f47b64);
-  --ads: none;
+  --ads: block;
 }
 
 .ads {
@@ -242,7 +242,7 @@ footer {
 }
 
 footer .copyRightClaim {
-  margin-top: 5px;
+  margin-bottom: 0px;
 }
 
 @media screen and (max-width: 480px) {

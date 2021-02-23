@@ -6,7 +6,7 @@
     --upperNavSocialMedia: white; // color of the social media logo
     --logoSize: 50px; //size of logo
     --colorBox: linear-gradient(180deg, #e93d95, #f47b64); // color for the boxes around the question
-    --ads: none; //you can chage to none to remove ads and block to show ads
+    --ads: block; //you can chage to none to remove ads and block to show ads
 }
 .ads {
     // for the ads looks
@@ -218,7 +218,8 @@ main {
 footer {
     margin-top: 100px;
     .copyRightClaim {
-        margin-top: 5px;
+        // margin-top: 5px;
+        margin-bottom: 0px;
     }
 }
 

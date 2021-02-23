@@ -54,7 +54,7 @@ function SendMail(name, email, message) {
         Subject: `${name} sent you a message`,
         Body: `Name: ${name}<br> Email: ${email} <br> Message: ${message}`,
     }).then(
-        message => alert(message)
+        message => alert("Thanks for your comment")
     );
 }
 let error1 = 0;
