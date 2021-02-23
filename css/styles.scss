@@ -6,12 +6,12 @@
     --upperNavSocialMedia: white; // color of the social media logo
     --logoSize: 50px; //size of logo
     --colorBox: linear-gradient(180deg, #e93d95, #f47b64); // color for the boxes around the question
-    --ads: block; //you can chage to none to remove ads and block to show ads
+    --ads: none; //you can chage to none to remove ads and block to show ads
 }
 .ads {
     // for the ads looks
     width: 80%;
-    height: 100px;
+    height: 130px;
     background-color: grey;
     margin-left: 50%;
     transform: translateX(-50%);
@@ -143,14 +143,14 @@ main {
             border: 1px solid#d8d8d8;
             background: #f2f2f2;
             padding: 8px;
-            margin: 10px 0px;
+            // margin: 10px 0px;
             label {
-                margin-right: 10px;
+                margin-right: 27px;
             }
-            input {
-                width: 16px;
-                height: 16px;
-            }
+            // input {
+            //     width: 16px;
+            //     height: 16px;
+            // }
         }
     }
     .result {
@@ -176,6 +176,12 @@ main {
             font-size: 18px;
             margin-right: 20px;
         }
+    }
+    .error{
+        width: 25%;
+        margin-top: 20px;
+        margin-left:50%;
+        transform: translateX(-50%);
     }
     .contactUs {
         //comment section
@@ -241,8 +247,8 @@ footer {
             }
         }
         .choose {
-            // margin: 0px 0px 0px 240px;
-            margin-left: 57%;
+            padding-right: 25px;
+            // margin-right: 100px;
             width: 90%;
             font-size: 16px;
             .option {
@@ -256,9 +262,10 @@ footer {
             input {
                 width: 13px;
                 height: 13px;
+                
                 // margin-top: 14px;
                 // position: absolute;
-                top: 23%;
+                // top: 23%;
             }
         }
         .shareLinks {
@@ -266,6 +273,9 @@ footer {
                 width: 43px;
                 height: 43px;
             }
+        }
+        .error{
+            width: 70%;
         }
         .result {
             .carTitle {

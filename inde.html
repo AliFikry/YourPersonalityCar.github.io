@@ -1,8 +1,5 @@
 <!doctype html>
 <html lang="en">
-<script>
-    var companyName = "youssry"
-</script>
 
 <head>
     <meta charset="utf-8">
@@ -22,6 +19,9 @@
 
 <body>
 
+    <script>
+        var companyName= "company Name"
+    </script>
     <div class="allNavs">
         <nav class="nav navbar-dark  upperNav">
             <div class="main">
@@ -70,7 +70,7 @@
             <a href="" style="text-decoration: none;">
                 <p class="text-center logo" id="logo">
                     <script>
-                        companyName
+                        `${companyName}`
                     </script>
                 </p>
             </a>
@@ -127,20 +127,14 @@
 
                     <img src="./pics/mercedes-3510327_640.jpg" alt="" class="img-fluid mx-auto d-block">
                 </div>
-                <div class="choose justify-content-center" dir="rtl">
-                    <div class="form-check option  ">
-                        <input style="float:right;" class="form-check-input" type="radio" name="flexRadioDefault"
-                            id="flexRadioDefault1" dir="rtl">
-                        <label class="form-check-label" for="flexRadioDefault1">
-                            سكان التغذية لكرة القدم
-                        </label>
+                <div class="choose justify-content-center">
+                    <div class="option option1" dir="rtl" lang="ar">
+                        <input type="checkbox" id="" name="1" value="1">
+                        <label for="option1"> سكان التغذية لكرة القدم</label>
                     </div>
-                    <div class="form-check option option2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
-                            style="float:right;">
-                        <label class="form-check-label" for="flexRadioDefault2">
-                            من أجل إطلاق الحياة
-                        </label>
+                    <div class="option option2" dir="rtl" lang="ar">
+                        <input type="checkbox" id="" name="hi" value="hi">
+                        <label for="option2"> من أجل إطلاق الحياة</label>
                     </div>
                 </div>
             </div>
@@ -149,7 +143,7 @@
             Ads
         </div>
         <div class="theMainQuestion">
-            <div class="firstQuestion 2">
+            <div class="firstQuestion">
                 <div class="question">
                     <p class=" text-center" dir="rtl" lang="ar">هناك حقيقة مثبتة منذ التركيز على الشكل الخارجي
                         للنصأو شكل توضع الفقرات في الصفحة التي يقرأ ؟</p>
@@ -157,20 +151,14 @@
 
                     <img src="./pics/mercedes-3510327_640.jpg" alt="" class="img-fluid mx-auto d-block">
                 </div>
-                <div class="choose justify-content-center" dir="rtl">
-                    <div class="form-check option  ">
-                        <input style="float:right;" class="form-check-input" type="radio" name="flexRadioDefaultTheSecond"
-                            id="flexRadioDefault3" dir="rtl">
-                        <label class="form-check-label" for="flexRadioDefault3">
-                            سكان التغذية لكرة القدم
-                        </label>
+                <div class="choose justify-content-center">
+                    <div class="option option1" dir="rtl" lang="ar">
+                        <input type="checkbox" id="" name="1" value="1">
+                        <label for="option1"> سكان التغذية لكرة القدم</label>
                     </div>
-                    <div class="form-check option option2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefaultTheSecond" id="flexRadioDefault4"
-                            style="float:right;">
-                        <label class="form-check-label" for="flexRadioDefault4">
-                            من أجل إطلاق الحياة
-                        </label>
+                    <div class="option option2" dir="rtl" lang="ar">
+                        <input type="checkbox" id="" name="hi" value="hi">
+                        <label for="option2"> من أجل إطلاق الحياة</label>
                     </div>
                 </div>
             </div>
@@ -188,101 +176,29 @@
                     <img src="./pics/mercedes-3510327_640.jpg" alt="" class="img-fluid mx-auto d-block">
                     <!-- img under the question -->
                 </div>
-                <div class="choose justify-content-center" dir="rtl">
-                    <div class="form-check option  ">
-                        <input style="float:right;" class="form-check-input" type="radio" name="flexRadioDefaultTheThird"
-                            id="flexRadioDefault5" dir="rtl">
-                        <label class="form-check-label" for="flexRadioDefault5">
-                            سكان التغذية لكرة القدم
-                        </label>
+                <div class="choose justify-content-center">
+                    <div class="option option1" dir="rtl" lang="ar">
+                        <input type="checkbox" id="" name="1" value="1">
+                        <label for="option1"> سكان التغذية لكرة القدم</label>
                     </div>
-                    <div class="form-check option option2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefaultTheThird" id="flexRadioDefault6"
-                            style="float:right;">
-                        <label class="form-check-label" for="flexRadioDefault6">
-                            من أجل إطلاق الحياة
-                        </label>
+                    <div class="option option2" dir="rtl" lang="ar">
+                        <input type="checkbox" id="" name="hi" value="hi">
+                        <label for="option2"> من أجل إطلاق الحياة</label>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="submitAnswersBtn submitBtn text-center">
-            <input type="checkbox" class="btn-check submitBtn" id="btncheck3 submitBtn" autocomplete="off">
-            <label class="btn btn-outline-primary submitBtn" for="btncheck3">Submit</label>
+        <div class="ads"></div>
+        <div class="result container">
+            <p class="title  text-muted" dir="rtl" lang="ar" style="font-size: 18px;">ما هي السيارة المناسب لشخصيتك ؟
+            </p>
+            <p class="carTitle" dir="rtl">Volvo</p>
+            <p class="carDocumentary">Lorem ipsum dolor sit amet consectetur, adipisicing Lorem ipsum, dolor sit amet
+                consectetur adipisicing elit. Laboriosam nemo facere sapiente culpa eius modi est ratione qui
+                repellendus ipsam. elit. Distinctio ullam blanditiis ea accusamus laudantium perspiciatis veritatis
+                explicabo unde adipisci a!</p>
+            <img src="./pics/car-3046424_1280.jpg" class="img-fluid mx-auto d-block">
         </div>
-        <div class="error justify-content-center">
-            <div class="alert alert-danger text-center" role="alert" style="display: none;">
-
-            </div>
-        </div>
-        <div class="ads">
-
-        </div>
-        <div class="result container resultSection" style="display: none;">
-            <div class="Result result1" style="display: none;">
-                <p class="title  text-muted" dir="rtl" lang="ar" style="font-size: 18px;">ما هي السيارة المناسب لشخصيتك
-                    ؟
-                </p>
-                <p class="carTitle" dir="rtl">Volvo</p>
-                <p class="carDocumentary">Lorem ipsum dolor sit amet consectetur, adipisicing Lorem ipsum, dolor sit
-                    amet
-                    consectetur adipisicing elit. Laboriosam nemo facere sapiente culpa eius modi est ratione qui
-                    repellendus ipsam. elit. Distinctio ullam blanditiis ea accusamus laudantium perspiciatis veritatis
-                    explicabo unde adipisci a!</p>
-                <img src="./pics/car-3046424_1280.jpg" class="img-fluid mx-auto d-block">
-            </div>
-            <div class="Result result2" style="display: none;">
-                <p class="title  text-muted" dir="rtl" lang="ar" style="font-size: 18px;">ما هي السيارة المناسب لشخصيتك
-                    ؟
-                </p>
-                <p class="carTitle" dir="rtl">Volvo</p>
-                <p class="carDocumentary">Lorem ipsum dolor sit amet consectetur, adipisicing Lorem ipsum, dolor sit
-                    amet
-                    consectetur adipisicing elit. Laboriosam nemo facere sapiente culpa eius modi est ratione qui
-                    repellendus ipsam. elit. Distinctio ullam blanditiis ea accusamus laudantium perspiciatis veritatis
-                    explicabo unde adipisci a!</p>
-                <img src="./pics/car-3046424_1280.jpg" class="img-fluid mx-auto d-block">
-            </div>
-            <div class="Result result3" style="display: none;">
-                <p class="title  text-muted" dir="rtl" lang="ar" style="font-size: 18px;">ما هي السيارة المناسب لشخصيتك
-                    ؟
-                </p>
-                <p class="carTitle" dir="rtl">Volvo</p>
-                <p class="carDocumentary">Lorem ipsum dolor sit amet consectetur, adipisicing Lorem ipsum, dolor sit
-                    amet
-                    consectetur adipisicing elit. Laboriosam nemo facere sapiente culpa eius modi est ratione qui
-                    repellendus ipsam. elit. Distinctio ullam blanditiis ea accusamus laudantium perspiciatis veritatis
-                    explicabo unde adipisci a!</p>
-                <img src="./pics/car-3046424_1280.jpg" class="img-fluid mx-auto d-block">
-            </div>
-            <div class="Result result4" style="display: none;">
-                <p class="title  text-muted" dir="rtl" lang="ar" style="font-size: 18px;">ما هي السيارة المناسب لشخصيتك
-                    ؟
-                </p>
-                <p class="carTitle" dir="rtl">Volvo</p>
-                <p class="carDocumentary">Lorem ipsum dolor sit amet consectetur, adipisicing Lorem ipsum, dolor sit
-                    amet
-                    consectetur adipisicing elit. Laboriosam nemo facere sapiente culpa eius modi est ratione qui
-                    repellendus ipsam. elit. Distinctio ullam blanditiis ea accusamus laudantium perspiciatis veritatis
-                    explicabo unde adipisci a!</p>
-                <img src="./pics/car-3046424_1280.jpg" class="img-fluid mx-auto d-block">
-            </div>
-            <div class="Result result5 " style="display: none;">
-                <p class="title  text-muted" dir="rtl" lang="ar" style="font-size: 18px;">ما هي السيارة المناسب لشخصيتك
-                    ؟
-                </p>
-                <p class="carTitle" dir="rtl">Volvo</p>
-                <p class="carDocumentary">Lorem ipsum dolor sit amet consectetur, adipisicing Lorem ipsum, dolor sit
-                    amet
-                    consectetur adipisicing elit. Laboriosam nemo facere sapiente culpa eius modi est ratione qui
-                    repellendus ipsam. elit. Distinctio ullam blanditiis ea accusamus laudantium perspiciatis veritatis
-                    explicabo unde adipisci a!</p>
-                <img src="./pics/car-3046424_1280.jpg" class="img-fluid mx-auto d-block">
-            </div>
-        </div>
-        
-
-        <!-- resultSection end -->
 
         <div class="contactUs container" style="margin-top: 30px;">
             <h3 class="text-center">Leave us a comment</h3>

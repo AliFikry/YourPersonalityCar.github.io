@@ -6,12 +6,12 @@
   --upperNavSocialMedia: white;
   --logoSize: 50px;
   --colorBox: linear-gradient(180deg, #e93d95, #f47b64);
-  --ads: block;
+  --ads: none;
 }
 
 .ads {
   width: 80%;
-  height: 100px;
+  height: 130px;
   background-color: grey;
   margin-left: 50%;
   -webkit-transform: translateX(-50%);
@@ -157,16 +157,10 @@ main .choose .option {
   border: 1px solid #d8d8d8;
   background: #f2f2f2;
   padding: 8px;
-  margin: 10px 0px;
 }
 
 main .choose .option label {
-  margin-right: 10px;
-}
-
-main .choose .option input {
-  width: 16px;
-  height: 16px;
+  margin-right: 27px;
 }
 
 main .result {
@@ -195,6 +189,14 @@ main .result .carTitle {
 main .result .title {
   font-size: 18px;
   margin-right: 20px;
+}
+
+main .error {
+  width: 25%;
+  margin-top: 20px;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 main .contactUs {
@@ -259,7 +261,7 @@ footer .copyRightClaim {
     font-size: 17px;
   }
   main .choose {
-    margin-left: 57%;
+    padding-right: 25px;
     width: 90%;
     font-size: 16px;
   }
@@ -273,11 +275,13 @@ footer .copyRightClaim {
   main .choose input {
     width: 13px;
     height: 13px;
-    top: 23%;
   }
   main .shareLinks svg {
     width: 43px;
     height: 43px;
+  }
+  main .error {
+    width: 70%;
   }
   main .result .carTitle {
     font-size: 16px;
